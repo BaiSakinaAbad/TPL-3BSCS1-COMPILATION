@@ -15,6 +15,7 @@ public class LexicalAnalysis {
         input = input.replace(";", " ; ");
 
         String[] lexemes = input.split(" ");
+        System.out.print("Output is: ");
 
         for (String lexeme : lexemes) {
             if (lexeme.isEmpty()) continue;
